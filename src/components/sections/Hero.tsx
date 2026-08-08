@@ -62,10 +62,10 @@ export function Hero() {
             />
             <div className="hero-stats">
               <div className="hero-stat">
-                <strong>51 buổi học, 120p/buổi</strong>
+                <strong>60 buổi học, 120p/buổi</strong>
               </div>
               <div className="hero-stat">
-                <strong>Thứ 2, Thứ 4, Thứ 6</strong>
+                <strong> Thứ 3, Thứ 6</strong>
                 <span>19h30 – 21h30</span>
               </div>
             </div>

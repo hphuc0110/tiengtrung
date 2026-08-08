@@ -17,7 +17,7 @@ export function WhyChoose() {
           </div>
           <div className="why-photo">
             <img
-              src="/public/hero/giangday.png"
+              src="/hero/giangday.png"
               alt="Giảng viên hướng dẫn trên bảng tương tác"
               loading="lazy"
             />

@@ -13,7 +13,7 @@ export function Curriculum() {
           className="curr-hero-bg"
           style={{
             backgroundImage:
-              "url('/public/hero/mo.png')",
+              "url('/hero/mo.png')",
           }}
         />
         <div className="container curr-hero-content">

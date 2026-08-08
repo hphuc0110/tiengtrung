@@ -21,7 +21,7 @@ export function LearningSpace() {
           <div className="space-left">
             <div className="space-photo">
               <img
-                src="/public/hero/Background.png"
+                src="/hero/Background.png"
                 alt="Không gian học tại Đông Phương Học Quán"
                 loading="lazy"
               />
