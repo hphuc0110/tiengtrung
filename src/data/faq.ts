@@ -9,7 +9,7 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'schedule',
     question: 'Khóa Hán Ngữ Nền Tảng học vào những ngày nào?',
     answer:
-      'Lịch học chính khóa rơi vào Thứ 2, Thứ 4 và Thứ 6 hàng tuần (19h30 đến 21h30). Hình thức: trực tuyến qua Zoom, dễ dàng sắp xếp thời gian. Ngoài ra, trung tâm còn tổ chức thêm các buổi workshop định kỳ vào thứ 7 (14h–16h) để cả lớp cùng trải nghiệm văn hóa và ôn lại kiến thức đã học.',
+      'Lịch học chính khóa rơi vào Thứ 3 và Thứ 6 hàng tuần (19h30 đến 21h30). Hình thức học trực tuyến, dễ dàng sắp xếp thời gian. Ngoài ra, trung tâm còn tổ chức thêm các buổi workshop định kỳ vào thứ 7 (14h–16h) để cả lớp cùng trải nghiệm văn hóa và ôn lại kiến thức đã học.',
   },
   {
     id: 'beginner',
@@ -19,9 +19,9 @@ export const FAQ_ITEMS: FaqItem[] = [
   },
   {
     id: 'miss-class',
-    question: 'Nếu bận không vào học đúng giờ qua Zoom được thì sao?',
+    question: 'Nếu bận không vào học đúng giờ để học trực tuyến được thì sao?',
     answer:
-      'Bạn không cần quá lo lắng về việc này. Mọi buổi học qua Zoom đều được ghi hình lại đầy đủ, nên nếu lỡ hẹn hôm đó bạn vẫn có thể xem lại bất cứ lúc nào phù hợp. Mô hình học Online kết hợp Offline của trung tâm cũng được xây dựng để việc chuyển đổi giữa hai hình thức diễn ra mượt mà, không khiến bạn cảm thấy hụt nhịp.',
+      'Bạn không cần quá lo lắng về việc này. Mọi buổi học đều được ghi hình lại đầy đủ, nên nếu lỡ hẹn hôm đó bạn vẫn có thể xem lại bất cứ lúc nào phù hợp.. Mô hình học Online kết hợp Offline của trung tâm cũng được xây dựng để việc chuyển đổi giữa hai hình thức diễn ra mượt mà, không khiến bạn cảm thấy hụt nhịp.',
   },
   {
     id: 'uni',

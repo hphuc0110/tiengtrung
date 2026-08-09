@@ -25,7 +25,7 @@ export const FEATURES: Feature[] = [
     icon: 'workshop',
     title: 'Đội ngũ trợ giảng kinh nghiệm',
     description:
-      'Với đội ngũ trợ giảng đến từ các trường đào tạo ngoại ngữ top đầu, có chứng chỉ HSK trở lên. Có nhiều kinh nghiệm trong việc gia sư, giảng dạy tiếng Trung.',
+      'Với đội ngũ trợ giảng đến từ các trường đào tạo ngoại ngữ top đầu, có chứng chỉ HSK. Có nhiều kinh nghiệm trong việc gia sư, giảng dạy tiếng Trung.',
   },
 ]
 
