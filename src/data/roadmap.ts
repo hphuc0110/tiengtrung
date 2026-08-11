@@ -15,7 +15,7 @@ export const ROADMAP: RoadmapItem[] = [
     timing: 'Nhập môn: 3 buổi',
     title: 'Nhập môn',
     description:
-      'Chủ đề chính: Thanh mẫu – vận mẫu – 4 thanh điệu – cấu trúc âm tiết; nhóm âm khó & bộ thủ, quy tắc chính tả Pinyin; âm uốn lưỡi, 8 nét cơ bản & Lục thư.',
+      'Chủ đề chính: Thanh mẫu – vận mẫu – thanh điệu – cấu trúc âm tiết; nhóm âm khó, quy tắc chính tả Pinyin; âm uốn lưỡi, 8 nét cơ bản & quy tắc viết tiếng Trung; giới thiệu về bộ thủ.',
   },
   {
     id: 'hsk1-1-5',

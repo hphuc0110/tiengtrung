@@ -9,7 +9,7 @@ export const FEATURES: Feature[] = [
   {
     id: 'curriculum',
     icon: 'book',
-    title: 'Giáo trình HSK 3.0 tinh gọn',
+    title: 'Giáo trình tinh gọn',
     description:
       'Được phát triển và tinh gọn dựa trên bộ New HSK Course, đủ 5 kỹ năng Nghe – Nói – Đọc – Viết – Dịch, giúp dễ tiếp cận mà vẫn bám sát chuẩn thi mới.',
   },

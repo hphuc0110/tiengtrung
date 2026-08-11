@@ -26,7 +26,7 @@ export function Hero() {
               <span className="hero-title">Khóa Hán Ngữ</span>
             </span>
             <span className="hero-title-wrap">
-              <span className="hero-title">Khai Dụng Thông</span>
+              <span className="hero-title hero-title-light">"Khai-Dụng-Thông"</span>
             </span>
           </h1>
           <p className="hero-sub">
@@ -48,8 +48,8 @@ export function Hero() {
               <img src={onlineCard.src} alt={onlineCard.alt} loading="lazy" />
             </figure>
             <figure className="hero-card hero-card-curriculum">
-              <img src={curriculumCard.src} alt={curriculumCard.alt} loading="lazy" />
               <figcaption>{curriculumCard.caption}</figcaption>
+              <img src={curriculumCard.src} alt={curriculumCard.alt} loading="lazy" />
             </figure>
           </div>
         </div>
@@ -62,10 +62,16 @@ export function Hero() {
             />
             <div className="hero-stats">
               <div className="hero-stat">
-                <strong>60 buổi học, 120p/buổi</strong>
+                <span className="hero-stat-number">51</span>
+                <strong>Buổi học</strong>
+                <span>120p/buổi</span>
               </div>
-              <div className="hero-stat">
-                <strong> Thứ 3, Thứ 6</strong>
+              <div className="hero-stat hero-stat-schedule">
+                <div className="hero-stat-days">
+                  <strong>Thứ 2</strong>
+                  <strong>Thứ 4</strong>
+                  <strong>Thứ 6</strong>
+                </div>
                 <span>19h30 – 21h30</span>
               </div>
             </div>

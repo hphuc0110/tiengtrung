@@ -27,7 +27,7 @@ export function Footer() {
         <div>
           <h3>Liên kết</h3>
           <ul>
-            <li><a href="#ve-dphq">Về ĐPHQ</a></li>
+            <li><a href="#ve-dphq">Về Đông Phương Học Quán</a></li>
             <li><a href="#lo-trinh">Lộ trình học</a></li>
             <li><a href="#faq">Câu hỏi thường gặp</a></li>
           </ul>

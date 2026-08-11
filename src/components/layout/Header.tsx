@@ -24,6 +24,14 @@ export function Header() {
               {link.label}
             </a>
           ))}
+          <RegisterButton
+            variant="solid"
+            size="sm"
+            className="nav-register"
+            onClick={() => setOpen(false)}
+          >
+            Đăng ký ngay
+          </RegisterButton>
         </nav>
         <RegisterButton variant="solid" size="sm">
           Đăng ký ngay

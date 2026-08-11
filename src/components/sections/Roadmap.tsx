@@ -37,9 +37,9 @@ export function Roadmap() {
 
         <Reveal className="duration-banner">
           <span>
-            Khóa học
+            Khóa học Hán ngữ
             <br />
-            Hán Ngữ Nền Tảng
+            Khai – Dụng – Thông
           </span>
           <strong>HSK 1 → HSK 2 → HSK 3</strong>
         </Reveal>

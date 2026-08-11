@@ -3,7 +3,7 @@ import { RegisterButton } from '../registration/RegisterButton'
 import { Reveal } from '../ui/Reveal'
 
 const FACULTY_DESC =
-  'Đội ngũ giảng viên tốt nghiệp chuyên ngành Ngôn ngữ Trung Quốc và Sư phạm tiếng Trung tại các trường đại học uy tín ở Trung Quốc và Việt Nam, được đào tạo thống nhất về chương trình và phương pháp giảng dạy.'
+  'Đội ngũ giảng viên tốt nghiệp chuyên ngành Ngôn ngữ Trung Quốc và Sư phạm tiếng Trung tại các trường đại học uy tín ở Việt Nam và Trung Quốc, được đào tạo thống nhất về chương trình và phương pháp giảng dạy.'
 
 export function Curriculum() {
   return (
@@ -18,7 +18,7 @@ export function Curriculum() {
         />
         <div className="container curr-hero-content">
           <p className="eyebrow light">Giáo trình & Giảng viên</p>
-          <h1>Chuẩn HSK 3.0 tinh gọn, dễ học</h1>
+          <h1>Giáo trình tinh gọn</h1>
         </div>
       </div>
 

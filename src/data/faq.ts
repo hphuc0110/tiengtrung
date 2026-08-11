@@ -9,25 +9,25 @@ export const FAQ_ITEMS: FaqItem[] = [
     id: 'schedule',
     question: 'Khóa Hán Ngữ Nền Tảng học vào những ngày nào?',
     answer:
-      'Lịch học chính khóa rơi vào Thứ 3 và Thứ 6 hàng tuần (19h30 đến 21h30). Hình thức học trực tuyến, dễ dàng sắp xếp thời gian. Ngoài ra, trung tâm còn tổ chức thêm các buổi workshop định kỳ vào thứ 7 (14h–16h) để cả lớp cùng trải nghiệm văn hóa và ôn lại kiến thức đã học.',
+      'Lịch học chính khóa vào Thứ 3 và Thứ 6 hàng tuần (19h30 đến 21h30). Hình thức học trực tuyến, dễ dàng sắp xếp thời gian.',
   },
   {
     id: 'beginner',
     question: 'Mình chưa biết gì về tiếng Trung, liệu có theo kịp không?',
     answer:
-      'Hoàn toàn yên tâm — khóa học được thiết kế dành riêng cho người bắt đầu từ con số 0. Vài buổi đầu tiên sẽ tập trung vào ngữ âm Pinyin và cách viết chữ Hán trước khi bước vào bài học chính thức. Và ngay sau buổi 3 còn có workshop “Câu chuyện bộ thủ” để giúp bạn chuẩn hóa phát âm ngay từ những bước đi đầu tiên.',
+      'Hoàn toàn yên tâm — khóa học được thiết kế dành riêng cho người bắt đầu từ con số 0. Các buổi nhập môn sẽ tập trung vào ngữ âm và cách viết chữ Hán trước khi bước vào bài học chính thức.',
   },
   {
     id: 'miss-class',
     question: 'Nếu bận không vào học đúng giờ để học trực tuyến được thì sao?',
     answer:
-      'Bạn không cần quá lo lắng về việc này. Mọi buổi học đều được ghi hình lại đầy đủ, nên nếu lỡ hẹn hôm đó bạn vẫn có thể xem lại bất cứ lúc nào phù hợp.. Mô hình học Online kết hợp Offline của trung tâm cũng được xây dựng để việc chuyển đổi giữa hai hình thức diễn ra mượt mà, không khiến bạn cảm thấy hụt nhịp.',
+      'Bạn không cần quá lo lắng về việc này. Mọi buổi học đều được ghi hình lại đầy đủ, nên nếu lỡ hẹn hôm đó bạn vẫn có thể xem lại bất cứ lúc nào phù hợp.',
   },
   {
     id: 'uni',
-    question: 'Có chứng chỉ HSK3 rồi thì được lợi gì khi xét tuyển đại học?',
+    question: 'Chứng chỉ HSK 3 giúp ích gì?',
     answer:
-      'Đây cũng là một trong những lý do nhiều bạn học sinh chọn học sớm. Thí sinh có chứng chỉ HSK từ cấp độ 3 trở lên sẽ được miễn thi tốt nghiệp THPT môn Ngoại ngữ, và tùy theo đề án tuyển sinh từng năm, nhiều trường đại học tại Hà Nội còn quy đổi HSK3 sang điểm xét tuyển tương đương khoảng 6.0–9.5 điểm.',
+      'Không chỉ là chứng chỉ đánh giá năng lực tiếng Trung, HSK 3 còn giúp người học xây dựng nền tảng giao tiếp cơ bản và tạo thêm lợi thế khi xét tuyển đại học, tìm kiếm việc làm. Từ học sinh, sinh viên đến người đi làm, người mới bắt đầu chuyển hướng nghề nghiệp đều có thể sử dụng HSK 3 như một bước đệm để mở rộng cơ hội trong các công việc có yêu cầu tiếng Trung như hành chính, chăm sóc khách hàng, kinh doanh, xuất nhập khẩu, du lịch, dịch vụ và nhiều lĩnh vực khác.',
   },
   {
     id: 'fee',

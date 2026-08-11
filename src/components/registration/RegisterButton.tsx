@@ -7,6 +7,7 @@ type RegisterButtonProps = {
   variant?: 'solid' | 'light' | 'outline' | 'outline-light'
   size?: 'md' | 'sm'
   className?: string
+  onClick?: () => void
 }
 
 export function RegisterButton({
@@ -14,11 +15,20 @@ export function RegisterButton({
   variant = 'solid',
   size = 'md',
   className = '',
+  onClick,
 }: RegisterButtonProps) {
   const { open } = useRegistrationModal()
 
   return (
-    <Button variant={variant} size={size} className={className} onClick={open}>
+    <Button
+      variant={variant}
+      size={size}
+      className={className}
+      onClick={() => {
+        open()
+        onClick?.()
+      }}
+    >
       {children}
     </Button>
   )

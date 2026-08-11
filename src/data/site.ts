@@ -1,7 +1,7 @@
 export const NAV_LINKS = [
-  { href: '#ve-dphq', label: 'Về ĐPHQ' },
+  { href: '#ve-dphq', label: 'Về Đông Phương Học Quán' },
   { href: '#lo-trinh', label: 'Lộ trình' },
-  { href: '#faq', label: 'FAQ' },
+  { href: '#faq', label: 'Câu hỏi thường gặp' },
 ] as const
 
 export const CONTACT = {

@@ -11,8 +11,8 @@ export function WhyChoose() {
             <p className="eyebrow">Vì sao chọn khóa học này</p>
             <h1>Học chắc nền tảng, đúng nhịp, không bị ngợp</h1>
             <p className="lead italic">
-              Thiết kế riêng cho người bắt đầu từ số 0, đi làm hoặc đi học vẫn theo được — không
-              đánh đổi tốc độ lấy sự vững chắc.
+              Thiết kế riêng cho người bắt đầu từ số 0, đi làm hoặc đi học vẫn theo được: ưu tiên
+              sự vững chắc, không đánh đổi tốc độ.
             </p>
           </div>
           <div className="why-photo">
