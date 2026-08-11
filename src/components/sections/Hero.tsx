@@ -62,14 +62,13 @@ export function Hero() {
             />
             <div className="hero-stats">
               <div className="hero-stat">
-                <span className="hero-stat-number">51</span>
+                <span className="hero-stat-number">60</span>
                 <strong>Buổi học</strong>
                 <span>120p/buổi</span>
               </div>
               <div className="hero-stat hero-stat-schedule">
                 <div className="hero-stat-days">
-                  <strong>Thứ 2</strong>
-                  <strong>Thứ 4</strong>
+                  <strong>Thứ 3</strong>
                   <strong>Thứ 6</strong>
                 </div>
                 <span>19h30 – 21h30</span>
