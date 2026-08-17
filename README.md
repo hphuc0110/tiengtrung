@@ -1,6 +1,6 @@
-# Đông Phương Học Quán — Hán Ngữ Nền Tảng
+# Đông Phương Học Quán — Khai - Dụng - Thông
 
-Landing page React + TypeScript (Vite) cho khóa **Hán Ngữ Nền Tảng**.
+Landing page React + TypeScript (Vite) cho khóa **Khai - Dụng - Thông**.
 
 ## Chạy dự án
 

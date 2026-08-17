@@ -50,7 +50,7 @@ export function Footer() {
       </div>
 
       <div className="container footer-copy">
-        <p>© 2026 {BRAND.name}. Khóa Hán Ngữ Nền Tảng.</p>
+        <p>© 2026 {BRAND.name}. Khóa Khai - Dụng - Thông.</p>
       </div>
     </footer>
   )

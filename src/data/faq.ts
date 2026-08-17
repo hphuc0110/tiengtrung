@@ -7,7 +7,7 @@ export type FaqItem = {
 export const FAQ_ITEMS: FaqItem[] = [
   {
     id: 'schedule',
-    question: 'Khóa Hán Ngữ Nền Tảng học vào những ngày nào?',
+    question: 'Khóa Khai - Dụng - Thông học vào những ngày nào?',
     answer:
       'Lịch học chính khóa vào Thứ 3 và Thứ 6 hàng tuần (19h30 đến 21h30). Hình thức học trực tuyến, dễ dàng sắp xếp thời gian.',
   },

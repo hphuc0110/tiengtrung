@@ -1,4 +1,8 @@
 import { useState, type FormEvent } from 'react'
+import {
+  RegistrationConfigError,
+  submitRegistration,
+} from '../../lib/submitRegistration'
 import { Button } from '../ui/Button'
 
 type FormData = {
@@ -74,6 +78,8 @@ export function RegistrationForm({ onSuccess }: RegistrationFormProps) {
   const [form, setForm] = useState<FormData>(INITIAL)
   const [errors, setErrors] = useState<FormErrors>({})
   const [submitted, setSubmitted] = useState(false)
+  const [submitting, setSubmitting] = useState(false)
+  const [submitError, setSubmitError] = useState('')
 
   const update =
     (field: keyof FormData) =>
@@ -84,15 +90,28 @@ export function RegistrationForm({ onSuccess }: RegistrationFormProps) {
       }
     }
 
-  const handleSubmit = (e: FormEvent) => {
+  const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
     const nextErrors = validate(form)
     setErrors(nextErrors)
+    setSubmitError('')
 
     if (Object.keys(nextErrors).length > 0) return
 
-    setSubmitted(true)
-    setForm(INITIAL)
+    setSubmitting(true)
+    try {
+      await submitRegistration(form)
+      setForm(INITIAL)
+      setSubmitted(true)
+    } catch (err) {
+      setSubmitError(
+        err instanceof RegistrationConfigError
+          ? 'Hệ thống chưa kết nối Google Sheet. Vui lòng cấu hình VITE_GOOGLE_SCRIPT_URL.'
+          : 'Không gửi được đăng ký. Vui lòng thử lại sau.',
+      )
+    } finally {
+      setSubmitting(false)
+    }
   }
 
   if (submitted) {
@@ -259,12 +278,19 @@ export function RegistrationForm({ onSuccess }: RegistrationFormProps) {
         </div>
       </div>
 
-      <p className="reg-note">
-        Các trường có dấu <span className="req">*</span> là bắt buộc
-      </p>
+      {submitError && (
+        <p className="reg-submit-error" role="alert">
+          {submitError}
+        </p>
+      )}
 
-      <Button type="submit" variant="solid" className="reg-submit">
-        Gửi đăng ký tư vấn
+      <Button
+        type="submit"
+        variant="solid"
+        className="reg-submit"
+        disabled={submitting}
+      >
+        {submitting ? 'Đang gửi...' : 'Gửi đăng ký tư vấn'}
       </Button>
     </form>
   )

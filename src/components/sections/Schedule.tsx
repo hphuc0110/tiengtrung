@@ -7,7 +7,7 @@ export function Schedule() {
     <section className="section schedule-wrap">
       <div className="container">
         <div className="schedule-box">
-          <h2>Lịch học khóa Hán Ngữ Nền Tảng</h2>
+          <h2>Lịch học khóa Khai - Dụng - Thông</h2>
           <div className="schedule-inner">
             <div className="schedule-grid">
               {SCHEDULE_DAYS.map((day, index) => (
@@ -29,7 +29,7 @@ export function Schedule() {
         </div>
         <div className="section-cta">
           <RegisterButton variant="outline">
-            Nhận thông tin về khóa Hán Ngữ Nền Tảng
+            Nhận thông tin về khóa Khai - Dụng - Thông
           </RegisterButton>
         </div>
       </div>

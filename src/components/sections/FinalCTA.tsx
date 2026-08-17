@@ -15,7 +15,7 @@ export function FinalCTA() {
         <h2>Bắt đầu hành trình từ hôm nay</h2>
         <p className="final-lead">
           Để lại thông tin, đội ngũ Đông Phương Học Quán sẽ tư vấn lộ trình phù hợp và lịch khai
-          giảng gần nhất cho khóa Hán Ngữ Nền Tảng.
+          giảng gần nhất cho khóa Khai - Dụng - Thông.
         </p>
         <RegisterButton variant="light" className="final-cta-btn">
           Đăng ký ngay
