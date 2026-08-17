@@ -34,8 +34,7 @@ export function Hero() {
           </p>
           <ul className="hero-bullets">
             <li>
-              {HERO_BULLET} Lộ trình 60 buổi, Học 2 buổi/tuần (Thứ 3 – 6, 19h30–21h30) trên bộ
-              giáo trình New HSK 3.0 tinh gọn.
+              {HERO_BULLET} Lộ trình 60 buổi, Học 2 buổi/tuần (Thứ 3 – 6, 19h30–21h30) tinh gọn dựa trên bộ giáo trình New HSK.
             </li>
           </ul>
 
