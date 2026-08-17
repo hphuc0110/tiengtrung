@@ -39,7 +39,7 @@ export const SPACE_POINTS = [
 
 export const HERO_THUMBS = [
   {
-    src: '/hero/1.png',
+    src: '/hero/1.jpg',
     alt: 'Lớp học online qua Zoom',
     caption: 'Lớp học online',
   },
